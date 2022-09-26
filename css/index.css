@@ -1,0 +1,282 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  color: #666666;
+}
+* {
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  height: 74px;
+  border-bottom: 1px solid #ff0066;
+  padding-bottom: 10px;
+  align-items: flex-end;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.header__logo__img {
+  width: 45px;
+}
+
+.header__list {
+  display: flex;
+}
+.header__item {
+  margin-right: 5px;
+}
+.header__item:last-child {
+  margin: 0;
+}
+
+.header__link {
+  color: #333333;
+}
+.header__contact {
+  display: flex;
+  flex-direction: column;
+}
+.header__number {
+  font-size: 18.2276px;
+  color: #333333;
+  margin-bottom: 3px;
+}
+.header__button {
+  font-weight: 700;
+  font-size: 13.965px;
+  color: white;
+  background-color: #ff6600;
+  padding: 7px;
+}
+.main {
+  padding: 131px 185px 0 122px;
+  margin-bottom: 36px;
+}
+.main__intro {
+  display: flex;
+}
+.main__qa {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.qa__backgroung {
+  background-color: #ed145b;
+  width: 122px;
+  height: 122px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 17px;
+  font-weight: 900;
+  font-size: 36px;
+  color: white;
+}
+.qa__title {
+  font-weight: 500;
+  font-size: 18px;
+}
+.main__list {
+  width: 50%;
+}
+
+.li_1 {
+  background-image: url(../img/clock-circular-outline.png);
+  background-repeat: no-repeat;
+  padding: 0 0 0 27px;
+  background-size: 18px;
+  margin-bottom: 22px;
+}
+
+.li_2::before {
+  content: url(../img/clock-circular-outline.png);
+  margin-right: 9px;
+}
+.li_2 {
+  margin-bottom: 22px;
+}
+.li_3 {
+  display: flex;
+}
+.li__3__img {
+  margin-right: 10px;
+}
+.li__3__text {
+  margin-right: 10px;
+  border: 1px solid #ff0066;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ff0066;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 12px;
+}
+.li__3__button {
+  background-color: #ff0066;
+  font-size: 20px;
+  color: white;
+  padding: 3px;
+}
+.main__text {
+  max-width: 740px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  color: #666666;
+}
+.structura {
+}
+
+.structura__title {
+  text-align: center;
+  font-size: 18px;
+}
+.structura__buttom {
+  width: 75px;
+
+  position: absolute;
+  left: 14px;
+  top: 645px;
+}
+.structura__title span {
+  border: 1px solid #ff0066;
+}
+.structura__column {
+  padding-left: 232px;
+  display: flex;
+  margin: 0 -40px;
+}
+
+.column1 {
+  width: 50%;
+  padding: 0 40px;
+}
+
+.column2 {
+  width: 50%;
+  padding: 0 40px;
+}
+li {
+  padding-left: 0px;
+}
+.footer {
+  display: flex;
+  height: 145px;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+  background-color: #333333;
+}
+.nav {
+  width: 50%;
+  padding-left: 110px;
+}
+.footer__nav {
+  margin-bottom: 68px;
+}
+.footer__list {
+  display: flex;
+}
+.footer__item {
+  margin-right: 5px;
+}
+.footer__item:last-child {
+  margin: 0;
+}
+.footer__link {
+  color: white;
+}
+
+.footer__logo {
+}
+.footer__contact {
+  width: 50%;
+}
